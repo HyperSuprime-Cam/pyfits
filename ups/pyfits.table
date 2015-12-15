@@ -1,2 +1,4 @@
 setupRequired("numpy")
+setupRequired("python_d2to1")
+setupRequired("stsci_distutils")
 envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
